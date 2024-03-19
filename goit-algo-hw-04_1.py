@@ -16,6 +16,6 @@ def total_salary(path):
     if total_developers>0:
         average_salary=total_salary_sum/total_developers
     return average_salary,total_salary_sum
-total_sum,average=total_salary("salary.txt")
+average,total_sum=total_salary("salary.txt")
 print("Загальна сума зарплат:",total_sum)
 print("Середня зарплата:",average)
